@@ -11,4 +11,4 @@ process.env.DB_PASSWORD,{
 }
 )
 
-isModuleNamespaceObject.exports=sequelize;
+module.exports=sequelize;
