@@ -1,6 +1,5 @@
 const {DataTypes}=require("sequelize")
-const sequelize=require("/src/config/database")
-const { userInfo } = require("os")
+const sequelize=require("../config/database")
 
 const User=sequelize.define("User",{
     name:{
